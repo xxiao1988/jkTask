@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+body {
+    background: #0d7792;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+}
+
+
+/*主要内容*/
+
+.wrap {
+    width: 640px;
+    background: #fff;
+    margin: 15px auto;
+    padding: 20px 35px;
+    border-radius: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+
+/*头部信息*/
+
+.logo {
+    width: 180px;
+    height: 76px;
+}
+
+.siteinfo {
+    float: right;
+}
+
+.siteinfo a {
+    color: #ff0099;
+    margin-right: 15px;
+}
+
+
+/*表格标题*/
+
+h2 {
+    font-size: 16px;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+
+/*表格信息*/
+
+.userinfo {
+    background: #ccc;
+    margin-top: 10px;
+}
+
+.userinfo th {
+    background: #eeeeee;
+    padding-left: 18px;
+    color: #003399;
+    font-size: 14px;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+}
+
+.red {
+    color: #f00;
+}
+
+.userinfo td {
+    padding: 3px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tl {
+    text-align: left;
+}
+
+select,
+input {
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+.fblue {
+    color: #0000ff;
+}
+
+.fgray {
+    color: #333;
+}
+
+.tutor td {
+    line-height: 20px;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.J_Submit {
+    cursor: pointer;
+    background: #367ab4;
+    border: 0px;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 3px;
+}

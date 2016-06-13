@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "microsoft YaHei";
+    font-size: 14px;
+}
+
+
+/*
+垂直分栏
+*/
+
+.wrapper {
+    display: -webkit-flex;
+    display: flex;
+    /*新的弹性布局*/
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /*新的从上往下排*/
+    /*display: -webkit-box;*/
+    /*新的弹性布局*/
+    /*-webkit-box-orient:vertical;*/
+    /*新的从上往下排*/
+    width: 600px;
+    background: #eee;
+    height: 600px;
+}
+
+.first {
+    height: 100px;
+    background: #8cb5f2;
+    -webkit-flex: 1;
+    flex: 1;
+    /*所暂空间的比例*/
+    -webkit-order: 3;
+    order: 3;
+    /*排列顺序*/
+}
+
+#second {
+    height: 100px;
+    background: #8cf2d1;
+    -webkit-flex: 1;
+    flex: 1;
+    /*-webkit-box-flex:1; 老的*/
+    -webkit-order: 1;
+    order: 1;
+    /*排列顺序*/
+}
+
+#three {
+    height: 200px;
+    background: #8ceaf2;
+    -webkit-flex: 1;
+    flex: 1;
+    /*-webkit-box-flex:1; 老的*/
+    -webkit-order: 2;
+    order: 2;
+    /*排列顺序*/
+}
+
+
+/*
+水平分栏
+*/
+
+.wrapper_row {
+    display: -webkit-flex;
+    display: flex;
+    /*新的弹性布局*/
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    /*新的从上往下排*/
+    /*display: -webkit-box;*/
+    /*新的弹性布局*/
+    /*-webkit-box-orient:vertical;*/
+    /*新的从上往下排*/
+    width: 600px;
+    background: #eee;
+    height: 200px;
+}
+
+.fourth {
+    height: 200px;
+    background: #8cb5f2;
+    -webkit-flex: 1;
+    flex: 1;
+    /*所暂空间的比例*/
+    -webkit-order: 3;
+    order: 3;
+    /*排列顺序*/
+}
+
+#fifth {
+    height: 200px;
+    background: #8cf2d1;
+    -webkit-flex: 1;
+    flex: 1;
+    /*-webkit-box-flex:1; 老的*/
+    -webkit-order: 1;
+    order: 1;
+    /*排列顺序*/
+}
+
+#Sixth {
+    height: 200px;
+    background: #8ceaf2;
+    -webkit-flex: 1;
+    flex: 1;
+    /*-webkit-box-flex:1; 老的*/
+    -webkit-order: 2;
+    order: 2;
+    /*排列顺序*/
+}

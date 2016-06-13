@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "microsoft YaHei";
+    font-size: 16px;
+}
+
+.wrapper {}
+
+
+/*标准盒模型
+宽度高度都跟内容一样
+*/
+
+.stand_content {
+    width: 320px;
+    height: 150px;
+    background: #518081;
+    color: #fff;
+}
+
+.stand_padding {
+    padding: 30px;
+    width: 320px;
+    height: 150px;
+    background: #fff;
+    margin: 30px 0 0 30px;
+    border: 30px solid #47aeb9;
+    overflow: auto;
+    /* 内容多的话隐藏并出现滚动*/
+}
+
+
+/*怪异盒模型
+先做盒子，在做里面的内容
+盒子宽度是：content+padding+border
+适用于手机窄屏幕
+*/
+
+.strange_content {
+    width: 320px;
+    height: 150px;
+    background: #518081;
+}
+
+.strange_padding {
+    padding: 30px;
+    width: 440px;
+    height: 270px;
+    background: #fff;
+    margin: 30px 0 0 30px;
+    border: 30px solid #47aeb9;
+    box-sizing: border-box;
+}

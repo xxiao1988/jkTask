@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+body {
+    background: #fff;
+    font-family: "SimSun";
+    font-size: 12px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.header {
+    position: absolute;
+    top: 25px;
+    right: 5px;
+}
+
+.mnav {
+    font-weight: bold;
+}
+
+.siteinfo a {
+    margin-right: 15px;
+}
+
+.siteinfo a:hover {
+    color: #3385ff;
+}
+
+a.more_products {
+    text-decoration: none;
+    padding: 5px 15px;
+    background: #3385ff;
+    color: #fff;
+}
+
+a.more_products:hover {
+    background: #307cec;
+    color: #fff;
+}
+
+.form_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -320px;
+    margin-top: -180px;
+    height: 240px;
+    width: 640px;
+    text-align: center;
+}
+
+.search_form {
+    margin-top: 40px;
+}
+
+.s_ipt {
+    width: 530px;
+    height: 33px;
+    border: 1px solid #ddd;
+    border-right: 0px;
+}
+
+.btn_wr {
+    margin-left: -6px;
+}
+
+.s_btn {
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    background: #3385ff;
+    height: 34px;
+    width: 100px;
+    border: 1px solid #3385ff;
+}
+
+.s_ipt:hover {
+    border: 1px solid #ccc;
+}
+
+.s_ipt:active {
+    border: 1px solid #3385ff;
+}
+.footer {
+    margin-bottom: 80px;
+    text-align: center;
+}
